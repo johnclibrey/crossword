@@ -1,0 +1,27 @@
+/* Author: John clibrey */
+/* Date: 03/01/2026 */
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+thead tr th {
+  color: white;
+  background-color: red;
+  font-size: 1.5em;
+  border: 1px solid gray;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  font-size: 0.7em;
+  border: 1px solid gray;
+  vertical-align: top;
+  text-align: left;
+}
+
+td.blank {
+  background: linear-gradient(to bottom right, red, gray);
+}
